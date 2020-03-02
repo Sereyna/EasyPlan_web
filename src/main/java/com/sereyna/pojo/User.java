@@ -1,14 +1,16 @@
 package com.sereyna.pojo;
 
+import org.springframework.stereotype.Component;
+
 /**
  * 用户实体类
  *
  */
+@Component
 public class User {
     private int userid;
     private String username;
-    private String nickname;
-    private String passwd;
+    private String password;
 
     public void setUserid(int userid) {
         this.userid = userid;
@@ -18,20 +20,12 @@ public class User {
         return userid;
     }
 
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
-    }
-
-    public String getNickname() {
-        return nickname;
-    }
-
     public void setPasswd(String passwd) {
-        this.passwd = passwd;
+        this.password = passwd;
     }
 
     public String getPasswd() {
-        return passwd;
+        return password;
     }
 
     public void setUsername(String username) {

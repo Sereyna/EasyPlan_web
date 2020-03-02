@@ -12,8 +12,8 @@
         <link rel="alternate" type="application/rss+xml" title="egrappler.com" href="feed/index.html">
         <link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet"
               type="text/css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/prettify.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../../css/prettify.css">
     </head>
     <body >
         <nav>
@@ -22,9 +22,9 @@
                 <div id="menu">
                     <ul class="toplinks">
                         <li><a href="#">今日计划</a></li>
-                        <li><a href="knowledge_depository_homepage.jsp">知识仓库</a></li>
-                        <li><a href="index.jsp">登陆/注册</a></li>
-                        <!--
+                        <li><a href="/WEB-INF/view/knowledge_depository_homepage.jsp">知识仓库</a></li>
+                        <!--<li><a href="index.jsp">登陆/注册</a></li>
+
                         <li><a href="../doc-template/docs.html">Blue Theme</a></li>
                         <li><a href="../doc-template-red/docs.html">Red Theme</a></li>
                         -->
@@ -283,13 +283,13 @@
             <p> &copy; 2020 白开水 </p>
         </div>
     </footer>
-    <script src="js/jquery.min.js"></script>
+    <script src="../../js/jquery.min.js"></script>
 
-    <script type="text/javascript" src="js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="../../js/prettify/prettify.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sunburst"></script>
-    <script src="js/layout.js"></script>
-    <script src="js/jquery.localscroll-1.2.7.js" type="text/javascript"></script>
-    <script src="js/jquery.scrollTo-1.4.3.1.js" type="text/javascript"></script>
+    <script src="../../js/layout.js"></script>
+    <script src="../../js/jquery.localscroll-1.2.7.js" type="text/javascript"></script>
+    <script src="../../js/jquery.scrollTo-1.4.3.1.js" type="text/javascript"></script>
 
     </body>
 </html>

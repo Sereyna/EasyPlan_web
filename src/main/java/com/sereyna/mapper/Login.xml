@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+    <mapper namespace="com.sereyna.mapper.LoginMapper">
+        <insert id="add" parameterType="User" >
+                insert into usertable ( id, name, password ) values (null, #{username}, #{passwd})
+        </insert>
+
+        <delete id="delete" parameterType="User" >
+                delete from usertable where id= #{id}
+        </delete>
+
+        <update id="update" parameterType="User" >
+                update usertable set password=#{passwd} where id=#{id}
+        </update>
+
+        <select id="get" parameterType="User" resultType="User">
+                select * from usertable where name=#{username}
+        </select>
+    </mapper>
+

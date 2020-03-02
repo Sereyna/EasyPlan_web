@@ -18,8 +18,8 @@
     <link rel="alternate" type="application/rss+xml" title="egrappler.com" href="feed/index.html">
     <link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet"
           type="text/css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/prettify.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/prettify.css">
 </head>
 
 <body>

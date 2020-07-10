@@ -22,7 +22,7 @@
                 <div id="menu">
                     <ul class="toplinks">
                         <li><a href="#">今日计划</a></li>
-                        <li><a href="/WEB-INF/view/knowledge_depository_homepage.jsp">知识仓库</a></li>
+                        <li><a href="#">知识仓库</a></li>
                         <!--<li><a href="index.jsp">登陆/注册</a></li>
 
                         <li><a href="../doc-template/docs.html">Blue Theme</a></li>
